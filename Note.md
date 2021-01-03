@@ -23,7 +23,8 @@
 2. xxx.xx??---------->查看指定对象或方法的源码
 3. ```jupyter kernelspec list```----------->show kernel in jupyter.
 4. 解决不能自动弹出网页的问题。```jupyter-notebook --generate-config```, then will create a py file automatically, ~/.jupyter/jupyter_notebook_config.py, you can locate this line after vi above py file, #c.NotebookApp.browser='', input line below,
-```import webbrowser
+```
+import webbrowser
 webbrowser.register("firefox",None,webbrowser.GenericBrowser("/usr/bin/firefox"))
 c.NotebookApp.browser = 'firefox'
 ```
