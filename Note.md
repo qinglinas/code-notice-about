@@ -1,5 +1,20 @@
 # Anaconda About
 1. 系统里同时有Anaconda和自带的Python时，有时候只想使用其中之一的Python解释器，可以在系统环境变量里更改以上两者的先后顺序，命令行界面里键入python时会根据最先得到的路径执行。
+2. 命令与含义
+
+|command|meaning|
+|-|-|
+|python -V/-version|查看当前环境python版本|
+|conda -V/-version|查看当前Anaconda版本|
+|conda info --envs|查看已创建的环境|
+|conda create -n your_env_name python=...|指定版本下创建环境|
+|conda remove -n envname -all|删除指定环境|
+|conda activate envname|激活环境并进入|
+|conda deactivate|退出|
+|conda install packagename|安装包|
+|pip install packagename|同上|
+|conda list|查看该环境下安装的所有包|
+|conda update conda|升级当前版本|
 
 
 # Jupyter Notebook About
@@ -49,4 +64,3 @@
 
 # Windows System About
 1. cmd命令重命名文本文件```ren```
-2. for push test
