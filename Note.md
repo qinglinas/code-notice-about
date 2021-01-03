@@ -49,3 +49,4 @@
 
 # Windows System About
 1. cmd命令重命名文本文件```ren```
+2. for push test
