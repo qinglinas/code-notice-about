@@ -16,10 +16,19 @@
 |conda list|查看该环境下安装的所有包|
 |conda update conda|升级当前版本|
 
+3. 创建虚拟环境时，同时指定Python版本和ipykernel。
 
 # Jupyter Notebook About
 1. help(xxx.xx)------>查看指定对象或方法的帮助文档
 2. xxx.xx??---------->查看指定对象或方法的源码
+3. ```jupyter kernelspec list```----------->show kernel in jupyter.
+4. 解决不能自动弹出网页的问题。```jupyter-notebook --generate-config```, then will create a py file automatically, ~/.jupyter/jupyter_notebook_config.py, you can locate this line after vi above py file, #c.NotebookApp.browser='', input line below,
+```import webbrowser
+webbrowser.register("firefox",None,webbrowser.GenericBrowser("/usr/bin/firefox"))
+c.NotebookApp.browser = 'firefox'
+```
+I used Firefox browser.
+
 
 
 # Numpy About
