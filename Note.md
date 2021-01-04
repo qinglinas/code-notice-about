@@ -29,6 +29,7 @@ webbrowser.register("firefox",None,webbrowser.GenericBrowser("/usr/bin/firefox")
 c.NotebookApp.browser = 'firefox'
 ```
 I used Firefox browser.
+5. Install ipykernel for two steps.```python -m pip install ipykernel```, and then ```python -m ipykernel install --display-name xxx```, I think step one for downloading from Internet, step two for installing to diskhard.  Otherway, if created conda env previously, can install ipykernel like ```conda install -n your_env ipykernel```, relative env to kernel like ```python -m ipykernel install --user --name your_env --display-name xxx```
 
 
 
