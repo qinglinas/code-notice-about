@@ -76,3 +76,7 @@ I used Firefox browser.
 
 # Windows System About
 1. cmd命令重命名文本文件```ren```
+
+
+# Question About
+1. 调用函数带括号和不带括号的区别
