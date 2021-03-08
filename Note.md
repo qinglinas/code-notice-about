@@ -18,6 +18,10 @@
 
 3. 创建虚拟环境时，同时指定Python版本和ipykernel。
 
+# Pypi
+1. 清华镜像源。临时使用：```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package```。设置默认：先升级```pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U```然后设置默认```pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple```。
+
+
 # Jupyter Notebook About
 1. help(xxx.xx)------>查看指定对象或方法的帮助文档
 2. xxx.xx??---------->查看指定对象或方法的源码
